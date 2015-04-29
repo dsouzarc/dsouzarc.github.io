@@ -1,6 +1,8 @@
 #[My website](http://dsouzarc.github.com)
 
-#[My Email (dsouzarc@gmail.com)](dsouzarc@gmail.com)
+#[My resume (tiny.cc/dsouzarcResume)](http://tiny.cc/dsouzarcResume)
+
+#[My Email (dsouzarc@gmail.com)](mailto:dsouzarc@gmail.com)
 
 #[My LinkedIn (linkedin.com/in/dsouzarc)](http://linkedin.com/in/dsouzarc)
 
