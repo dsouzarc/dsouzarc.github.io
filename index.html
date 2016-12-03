@@ -1,92 +1,107 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryan D'souza</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css' />
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link  rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Ryan D'souza's Website :">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+</head>
+<body>
 
-    <title>Ryan D'souza</title>
-  </head>
 
-  <body>
+  <!-- <audio id="audio" src="ad.mp3" ></audio> -->
+<div class="wrapper">
+  <div id="particles-js"></div>
+  <div class="section">
+    <div class="name">
+      <ul id="scene"
+      data-calibrate-x="false"
+      data-calibrate-y="false"
+      data-invert-x="true"
+      data-invert-y="true"
+      data-limit-x="false"
+      data-limit-y="false"
+      data-scalar-x="2"
+      data-scalar-y="2"
+      data-friction-x="0.1"
+      data-friction-y="0.1"
+      data-origin-x="0.0"
+      data-origin-y="0.0">
+      <p class="head layer" data-depth="1.0">Ryan D'souza</p>
+    </ul>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/dsouzarc">View my GitHub profile</a>
-          <h1 id="project_title">Ryan D'souza's Website</h1>
-        </header>
+      <ul id="scene1"
+      data-calibrate-x="false"
+      data-calibrate-y="false"
+      data-invert-x="false"
+      data-invert-y="true"
+      data-limit-x="false"
+      data-limit-y="false"
+      data-scalar-x="2"
+      data-scalar-y="2"
+      data-friction-x="0.1"
+      data-friction-y="0.1"
+      data-origin-x="0.0"
+      data-origin-y="0.0">
+      <p id="textdisp" class="text layer" data-depth="0.5">Developer.Student - Rutgers University '19</p>
+      </ul>
+      <ul id="scene2"
+      data-calibrate-x="false"
+      data-calibrate-y="false"
+      data-invert-x="false"
+      data-invert-y="true"
+      data-limit-x="false"
+      data-limit-y="false"
+      data-scalar-x="2"
+      data-scalar-y="2"
+      data-friction-x="0.1"
+      data-friction-y="0.1"
+      data-origin-x="0.0"
+      data-origin-y="0.0">
+      <div class="icons layer" data-depth="0.6">
+        <div class="ico"><a href="https://www.linkedin.com/in/dsouzarc" target="_blank"><i class="fa fa-linkedin fa-2x lin"></i></a></div>
+        <div class="ico"><a href="https://github.com/dsouzarc"><i class="fa fa-github fa-2x git"></i></a></div>
+        <div class="ico"><a href="https://www.facebook.com/dsouzarc"><i class="fa fa-facebook fa-2x fb"></i></a></div>
+        <div class="ico"><a href="mailto:dsouzarc@gmail.com"><i class="fa fa-envelope fa-2x mail"></i></a></div>
+      </div>
+      <div class="resume">
+          <div class="ico-res"><a href="http://dsouzarc.github.io/resume/Ryan_Dsouza_Resume.pdf"><i class="fa fa-file-text fa-3x res"></i></a></div>
+      </div>
+    </ul>
     </div>
+  </div>
+</div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-            <a id="welcome-to-ryan-dsouzas-website" class="anchor" href="#welcome-to-ryan-dsouzas-website" aria-hidden="true">
-                <span class="octicon octicon-link"></span>
-            </a>Welcome to Ryan D'souza's website</h3>
 
-        <p>This website is under-construction and will be finished by late 2016.</p>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script type="text/javascript" src="js/particles.min.js"></script>
+  <script type="text/javascript" src="js/parallax-master/deploy/parallax.min.js"></script>
+  <script type="text/javascript" src="js/parallax-master/deploy/jquery.parallax.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/text-autotype.js" ></script>
 
-        <p>If you are looking to <b>contact</b> me, my email address is: <a href="mailto:dsouzarc@gmail.com">dsouzarc@gmail.com</a></p>
 
-        <p>If you are looking for my <b>resume</b>, it can be found at: <a href="http://tiny.cc/dsouzarcResume">tiny.cc/dsouzarcResume</a></p>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        <p> Below are a few of my publicly hosted projects with screenshots. More will be added when they are 'prettified'; I prefer to have a functional product over an aesthetically pleasing, yet broken app. Each app has a descriptive README </p>
+      ga('create', 'UA-79658271-1', 'auto');
+      ga('send', 'pageview');
 
-        <ul>
+    </script>
+</body>
 
-            <li><a href="https://github.com/dsouzarc/tinderNNBot">Tinder Bot</a>: Uses a neural network to figure out what you look for in a person (or what you don't look for - still under debate on which is more accurate) and performs those actions on Tinder </li>
-            <br>
-
-            <li><a href="https://github.com/dsouzarc/iMessageAnalyzer">iMessage Analyzer</a>: Analyzes a user's iMessage history. Shows graphs displaying the frequency a person is texted, word frequencies, and a variety of other features not found on the default Messages.app. Check out the repo for screenshots and more descriptions. </li>
-            <br>
-
-            <li><a href="https://github.com/dsouzarc/dotfiles/tree/master/Python">Python Files</a>: Interesting Python scripts I've written to simplify my life or help someone out. Descriptions are included in the README</li>
-            <br>
-
-            <li><a href="https://github.com/dsouzarc/bmfiOS">Bring Me Food</a>: A refined version of Uber for crowd-sourcing the delivery of food</li>
-            <br>
-
-            <li><a href="https://github.com/dsouzarc/promme">Prom Me</a>: Tinder, but for Prom</li>
-            <br>
-
-            <li><a href="https://github.com/dsouzarc/dotfiles/tree/master/Python/NoteTaker">Note Taker</a>: Randomly generates notes on a book and exports them to both a .markdown and .docx file</li>
-            <br>
-
-            <li><a href="https://github.com/dsouzarc/giftCardBalanceTracker">Giftcard Tracker</a>: An iOS app I created to quickly and easily track the balances and purchase history of debit giftcards </li>
-            <br>
-
-            <li><a href="https://github.com/dsouzarc/wwdc-2015">WWDC Scholarship App</a>: An unfinished version of my WWDC Scholarship Application</li>
-            <br>
-
-            <li><a href="https://github.com/dsouzarc/Robinhood">Robinhood Commandline</a>: Trades stocks and performs research using Robinhood's API. Written before Robinhood released their API and made an Android app </li>
-            <br>
-
-            <li><a href="https://github.com/dsouzarc/dotfiles">Dotfiles</a>: A collection of my dotfiles </li>
-            <br>
-
-            <li><a href="https://github.com/dsouzarc/phsLabDaysiOS">PHS Lab Days iOS</a>: The iOS app responsible for sending text messages to over 11% of my high school on a daily basis</li>
-            <br>
-
-            <li><a href="https://github.com/dsouzarc/PHSPowerSchool">PHS PowerSchool</a>: App to log PHS students into PowerSchool (grades checking system)</li>
-            <br>
-
-            <li><a href="https://github.com/dsouzarc/pacman">Pacman</a>: Classic Pacman game written in Java</li>
-            <br>
-        </ul>
-
-        <p> If you are looking for a list of my <b>previous/current projects</b>, it can be found at: <a href="http://tiny.cc/dsouzarcCSProjects">tiny.cc/dsouzarcCSProjects</a></p>
-      </section>
-    </div>
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-  </body>
 </html>
