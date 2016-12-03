@@ -49,4 +49,4 @@ function ret_index(a){
 }
 
 
-setInterval(txt,150);
+setInterval(txt,80);
