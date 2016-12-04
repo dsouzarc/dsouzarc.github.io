@@ -18,19 +18,23 @@ function txt(){
 			}
 		else
 			{
-				i = -1;}
+                //Don't delete yourself
+				//i = -1;
+            }
 	}
 	else
 	{
 		if(-1*i != a.length)
 			{
-				i--;
+                //Don't delete yourself
+				//i--;
 			}
 		else
 			{
-				i=1;
-				var flag = ret_index(a);
-				a = list[flag];
+                //Don't delete yourself
+				//i=1;
+				//var flag = ret_index(a);
+				//a = list[flag];
 			}
 
 
