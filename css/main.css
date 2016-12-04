@@ -79,7 +79,7 @@ p{
   margin:0;
 
 }
-.fb, .lin, .git, .twit, .mail, .res{
+.fb, .ig, .lin, .git, .twit, .mail, .res{
   color:#32CD32;
 }
 
@@ -120,13 +120,14 @@ p{
 }
 .ico:hover .fb{
   color:white;
-
 }
-
 .ico:hover .lin{
   color:white;
 }
 .ico:hover .git{
+  color:white;
+}
+.ico:hover .ig{
   color:white;
 }
 .ico:hover .mail{
